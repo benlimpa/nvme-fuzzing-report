@@ -1,0 +1,9 @@
+[submodule "spdk"]
+	path = spdk
+	url = https://github.com/benlimpa/spdk.git
+[submodule "AFLplusplus"]
+	path = AFLplusplus
+	url = https://github.com/AFLplusplus/AFLplusplus.git
+[submodule "nvme-cli"]
+	path = nvme-cli
+	url = https://github.com/benlimpa/nvme-cli.git
