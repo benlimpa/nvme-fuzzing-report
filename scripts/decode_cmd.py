@@ -15,7 +15,7 @@ if __name__ == "__main__":
 
     cmd_decoded = "nvme {cmd_type} -s {start_block} -c {block_count} -z {data_size}"
 
-    if len(cmd_encoded) != CMD_LEN:
+    if len(cmd_encoded) < CMD_LEN:
         raise RuntimeError(
             f"Expected encoded command to be {CMD_LEN} bytes long, but got {len(cmd_encoded)} instead"
         )
